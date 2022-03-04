@@ -1,6 +1,6 @@
 <?php
 // import du fichier database.php
-require '../../db/database.php';
+require '../db/database.php';
 
 // Si il y a une method post
 if (!empty($_POST)) {
@@ -33,6 +33,7 @@ if (!empty($_POST)) {
         $q = $pdo->prepare($sql);
         $q->execute(array($title, $subtitle, $description));
         Database::disconnect();
-        header("Location: ../../admin.php");
+        header("Location: ../../index.php");
     }
 }
+?>
