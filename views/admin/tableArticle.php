@@ -56,7 +56,7 @@
                     <?php
                     // Appel de la class Database et de ça fontion connect()
                     $pdo = Database::connect();
-                    $sql = 'SELECT * FROM articles ORDER BY id DESC';
+                    $sql = 'SELECT * FROM articles ORDER BY id';
                     $q = $pdo->query($sql);
 
                     foreach ($q as $row) {
@@ -87,11 +87,9 @@
                     Database::disconnect();
 
                     ?>
-
                 </tbody>
             </table>
         </div>
-
 
     </div>
 </div>

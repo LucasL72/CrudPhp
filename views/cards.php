@@ -40,25 +40,6 @@
         Database::disconnect();
         ?>
 
-        <!-- Card Example --
-        <div class="card col-md-4 col-sm-12" style='max-width: 230px'>
-          <a href="descriptionID.php">
-            <img src="/public/images/code-blue.jpg" class="card-img-top" alt="..." />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Card titl</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <!--  -->
-
     </div>
 </div>
 <!-- / Liste de card -->

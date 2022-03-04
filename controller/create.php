@@ -33,7 +33,7 @@ if (!empty($_POST)) {
         $q = $pdo->prepare($sql);
         $q->execute(array($title, $subtitle, $description));
         Database::disconnect();
-        header("Location: ../../index.php");
+        header("Location: ../../admin.php");
     }
 }
 ?>
